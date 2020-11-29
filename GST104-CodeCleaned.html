@@ -18,20 +18,20 @@
     improve readability and maintainability.
     -->
 <head>
-    <title>V101 | As in the question </title>
+    <title>V104-CodeCleaned</title>
     <meta charset="utf-8" />
     <script type='text/javascript'>
-        function Peach(pip) {
-            return pip * 1.1;
+        function AddGst(baseAmount) {
+            return baseAmount * 1.1;
         }
         function Main() {
-            var yum = document.getElementById('txtPrice').value;
-            document.getElementById('txtGST_price').value = 'Hmm, ' + yum + ' gives ' + Peach(yum);
+            var UserInput = document.getElementById('txtPrice').value;
+            document.getElementById('txtGST_price').value = 'Hmm, ' + UserInput + ' gives ' + AddGst(UserInput);
         }
     </script>
 </head>
 <body>
-<h1>Yum, Peaches &amp; Pips (Original question)</h1>
+    <h1>V104 | Code Cleaned</h1>
     <br />
     Enter something!<br />
 
@@ -42,5 +42,4 @@
     <textarea id="txtGST_price" rows="3" cols="30"></textarea>
 <img src="images/nugget.gif" width="80" height="100" alt=""/>
 </body>
-	
 </html>
