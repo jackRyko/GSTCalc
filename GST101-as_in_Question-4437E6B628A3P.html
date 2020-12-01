@@ -18,41 +18,20 @@
     improve readability and maintainability.
     -->
 <head>
-    <title>V104-CodeCleaned</title>
+    <title>Yum, Yum, Yum</title>
     <meta charset="utf-8" />
     <script type='text/javascript'>
-        function AddGst(baseAmount) {
-            return baseAmount * 1.1;
+        function Peach(pip) {
+            return pip * 1.1;
         }
         function Main() {
-            var UserInput = document.getElementById('txtPrice').value;
-            document.getElementById('txtGST_price').value = 'Hmm, ' + UserInput + ' gives ' + AddGst(UserInput);
+            var yum = document.getElementById('txtPrice').value;
+            document.getElementById('txtGST_price').value = 'Hmm, ' + yum + ' gives ' + Peach(yum);
         }
-		var x = 0;
-		var y = 0;
-		var r = 0;
-		var dir = 1;
-		var dir1 = 1;
-		function sPIN(){
-			r++;
-			x += dir;
-			y += dir1;
-			//alert("fherouhfuioehrfuioh")
-			document.getElementById("balls").style.transform = "Translate("+x+"px,"+y+"px) Rotate("+r+"deg)";
-			if ((x > 1000) || (x <0)) {
-				dir *= -1;
-			}
-			if ((y > 250) || (y <0)) {
-				dir1 *= -1;
-			}
-			
-			
-		}
-		
     </script>
 </head>
 <body>
-    <h1>V104 | Code Cleaned</h1>
+    <h1>Yum, Peaches &amp; Pips (Original question)</h1>
     <br />
     Enter something!<br />
 
@@ -61,6 +40,6 @@
     <br />
     The code returns:<br />
     <textarea id="txtGST_price" rows="3" cols="30"></textarea>
-<img onClick="x=setInterval(sPIN, 10)" src="images/nugget.gif" width="80" height="100" id="balls" alt=""/>
+
 </body>
 </html>

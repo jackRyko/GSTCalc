@@ -5,6 +5,21 @@
 <title>Redirection Page</title>
 </head>
 
+<script language="javascript">
+function ColorMM(){
+	colorRR = getRandomColor()
+	document.body.style.background = colorRR;
+	}
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var colorRR = '#';
+  for (var i = 0; i < 6; i++) {
+    colorRR += letters[Math.floor(Math.random() * 16)];
+  }
+  return colorRR;
+}
+//got code for the random color genrator from https://stackoverflow.com/questions/1484506/random-color-generator	
+</script>
 <body>
 <table border="1">
   <tbody>
@@ -70,6 +85,6 @@
     </tr>
   </tbody>
 </table>
-<img src="images/linus.jpg" width="474" height="266" alt=""/>
+<img onClick="x=setInterval(ColorMM, 100)" src="images/linus.jpg" width="474" height="266" alt=""/>
 </body>
 </html>
