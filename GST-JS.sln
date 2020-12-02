@@ -5,7 +5,10 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19397F1E-58DA-49E5-B0C1-03F05CE72727}"
 	ProjectSection(SolutionItems) = preProject
-		GST101-V2.html = GST101-V2.html
+		GST101-as_in_Question.html = GST101-as_in_Question.html
+		GST103-WarningsFixed.html = GST103-WarningsFixed.html
+		GST104-CodeCleaned.html = GST104-CodeCleaned.html
+		index.html = index.html
 	EndProjectSection
 EndProject
 Global
